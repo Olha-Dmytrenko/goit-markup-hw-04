@@ -147,11 +147,20 @@ img {
   width: 122px;
 }
 
-.auth-nav .link-mail:hover,
-.auth-nav .link-tel:hover,
-.auth-nav .link-mail:focus,
-.auth-nav .link-tel:focus {
+.link-mail:hover .svg-nav {
+  fill: var(--accent-text-color);
+}
+
+.link-tel:hover,
+.link-mail:hover,
+.link-mail:focus,
+.link-tel:focus {
   color: var(--accent-text-color);
+  fill: var(--accent-text-color);
+}
+
+.svg-nav {
+  fill: currentColor;
 }
 
 /* Hero */
