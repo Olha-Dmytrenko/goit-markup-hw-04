@@ -119,6 +119,7 @@ img {
   margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
+  text-align: center;
 }
 
 .auth-nav-item + .auth-nav-item {
@@ -147,19 +148,33 @@ img {
   width: 122px;
 }
 
-.link-mail:hover .svg-nav {
-  fill: var(--accent-text-color);
-}
-
 .link-tel:hover,
 .link-mail:hover,
 .link-mail:focus,
 .link-tel:focus {
   color: var(--accent-text-color);
-  fill: var(--accent-text-color);
 }
 
-.svg-nav {
+.svg-nav .mail {
+  width: 16;
+  height: 12;
+  fill: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.svg-nav .tel {
+  width: 10;
+  height: 16;
+  fill: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.svg-nav:hover,
+.svg-nav:focus {
   fill: currentColor;
 }
 
