@@ -473,7 +473,7 @@ img {
 
 /* Footer */
 .page-footer {
-  display: block;
+  display: flex;
   background-color: var(--primary-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
