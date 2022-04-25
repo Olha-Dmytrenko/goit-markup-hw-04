@@ -274,7 +274,6 @@ img {
   display: block;
   content: '';
   height: 120px;
-  outline: 1px solid red;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -483,10 +482,6 @@ img {
   display: flex;
 }
 
-.contacts-links {
-  margin-left: 70px;
-}
-
 /* Logo-footer */
 .logo-footer {
   color: var(--accent-text-color);
@@ -578,16 +573,18 @@ img {
   text-align: center;
 }
 
-.text-join {
-  color: #ffffff;
-  padding-bottom: 20px;
+.contacts-links {
+  margin-left: 70px;
+}
+
+.join-title .contacts-links {
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 145px;
-  height: 16px;
 }
 
 /* Styles for portfolio */
