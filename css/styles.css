@@ -553,7 +553,6 @@ img {
 
 .social-list-footer {
   display: flex;
-  padding-top: 16px;
 }
 
 .button-social-link {
@@ -593,6 +592,7 @@ img {
   line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 12px;
 }
 
 /* Styles for portfolio */
