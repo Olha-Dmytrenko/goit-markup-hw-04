@@ -445,7 +445,7 @@ img {
   display: flex;
 }
 
-.client-list-element {
+/* .client-list-element { 
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -455,19 +455,27 @@ img {
   justify-content: center;
   align-items: center;
 }
+*/
 
 .client-list-element + .client-list-element {
   margin-left: 30px;
 }
 
-.client-logo {
+.client-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: #afb1b8;
-  border: #afb1b8;
 }
 
-.client-logo:hover {
-  border: #2196f3;
+.client-link:hover {
   fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 /* Footer */
@@ -577,7 +585,7 @@ img {
   margin-left: 70px;
 }
 
-.join-title .contacts-links {
+.join-title {
   color: var(--secondary-text-color);
   margin-bottom: 20px;
   font-weight: 700;
